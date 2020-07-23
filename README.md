@@ -17,3 +17,9 @@ npm install serve
 ```
 
 ## Storybook
+
+```
+npx -p @storybook/cli sb init --type html
+```
+
+- Initilizes storybook for HTML
