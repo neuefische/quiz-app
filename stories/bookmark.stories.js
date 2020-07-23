@@ -1,5 +1,5 @@
 export default { title: 'Components/bookmark' }
-import { addToggleLogic } from '../js/index.js'
+import { addToggleLogic } from '../js/bookmark.js'
 
 export const bookmarkToggle = () => {
   const section = document.createElement('section')
