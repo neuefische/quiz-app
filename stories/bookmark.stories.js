@@ -1,7 +1,11 @@
 export default { title: 'Components/bookmark' }
+import { addToggleLogic } from '../js/index.js'
 
-export const bookmarked = () =>
-  '<section class="card"><i class="card__bookmark material-icons md-36 md-dark">bookmark</i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic temporeoptio, quam dicta mollitia voluptatem ipsa pariatur possimus?</section>'
-
-export const notBookmarked = () =>
-  '<section class="card"><i class="card__bookmark material-icons md-36 md-dark md-inactive" >bookmark</i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic temporeoptio, quam dicta mollitia voluptatem ipsa pariatur possimus?</section>'
+export const bookmarkToggle = () => {
+  const section = document.createElement('section')
+  section.className = 'card'
+  section.innerHTML = `<i class="card__bookmark material-icons md-36 md-dark " >bookmark</i> Question bla bla`
+  const bookmark = section.querySelector('.card__bookmark')
+  addToggleLogic(bookmark)
+  return section
+}
