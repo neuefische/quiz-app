@@ -1,25 +1,13 @@
-# quiz-app
+# Quiz-Qpp
 
-This is a demo for the quiz-app.
+This is repository is a demo version of the quiz-app.
+It is build with HTML, CSS/SCSS and vanilla JavaScript.
+One main feature it demonstrates is the use of Storybook for HTML and CSS/SCSS.
 
-## SCSS
+## How to initialize Storybook with HTML
 
-```
-npm install node-sass
-```
-
-```
-npm install npm-run-all
-```
-
-```
-npm install serve
-```
-
-## Storybook
+[Storybook](https://storybook.js.org/)
 
 ```
 npx -p @storybook/cli sb init --type html
 ```
-
-- Initilizes storybook for HTML
