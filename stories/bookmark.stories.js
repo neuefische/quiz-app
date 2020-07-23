@@ -1,5 +1,3 @@
-import '../styles.css'
-
 export default { title: 'Components/bookmark' }
 
 export const bookmarked = () =>

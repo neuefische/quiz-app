@@ -1,5 +1,3 @@
-import '../styles.css'
-
 export default { title: 'Components/tags' }
 
 export const simpleTag = () => '<span class="card__tag">Tag1</span>'

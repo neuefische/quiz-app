@@ -1,5 +1,3 @@
-import '../styles.css'
-
 export default { title: 'Components/card' }
 
 export const simpleCard = () =>
