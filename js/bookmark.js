@@ -1,10 +1,12 @@
+import { getAll } from './utils'
+
 export function initBookmarkLogic() {
-  const bookmarks = document.querySelectorAll('.card__bookmark')
+  const bookmarks = getAll('[data-js=bookmark]')
   bookmarks.forEach(addToggleLogic)
 }
 
 export function addToggleLogic(bookmark) {
   bookmark.addEventListener('click', () => {
-    bookmark.classList.toggle('md-inactive')
+    bookmark.classList.toggle('bookmarked')
   })
 }
