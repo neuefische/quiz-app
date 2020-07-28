@@ -4,17 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz-App</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="scss/styles.scss" />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
+    <script defer src="js/index.js"></script>
   </head>
   <body>
-    <header class="center"><h1>Quiz App</h1></header>
-    <main class="card-grid scrolling">
+    <header class="header center"><h1>Quiz App</h1></header>
+    <main class="card__grid scrolling">
       <section class="card">
-        <i class="card__bookmark material-icons md-36 md-dark">bookmark</i>
+        <div data-js="bookmark" class="card__bookmark"></div>
         <h2 class="card__headline m-0">Question1</h2>
         <p class="card__text m-5">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus
@@ -29,7 +30,7 @@
         </div>
       </section>
       <section class="card">
-        <i class="card__bookmark material-icons md-36 md-dark">bookmark</i>
+        <div data-js="bookmark" class="card__bookmark"></div>
         <h2 class="card__headline m-0">Question1</h2>
         <p class="card__text m-5">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus
@@ -44,7 +45,7 @@
         </div>
       </section>
       <section class="card">
-        <i class="card__bookmark material-icons md-36 md-dark">bookmark</i>
+        <div data-js="bookmark" class="card__bookmark"></div>
         <h2 class="card__headline m-0">Question1</h2>
         <p class="card__text m-5">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus
@@ -59,7 +60,7 @@
         </div>
       </section>
       <section class="card">
-        <i class="card__bookmark material-icons md-36 md-dark">bookmark</i>
+        <div data-js="bookmark" class="card__bookmark"></div>
         <h2 class="card__headline m-0">Question1</h2>
         <p class="card__text m-5">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus
@@ -74,7 +75,7 @@
         </div>
       </section>
       <section class="card">
-        <i class="card__bookmark material-icons md-36 md-dark">bookmark</i>
+        <div data-js="bookmark" class="card__bookmark"></div>
         <h2 class="card__headline m-0">Question1</h2>
         <p class="card__text m-5">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus
@@ -89,7 +90,7 @@
         </div>
       </section>
     </main>
-    <nav>
+    <nav class="footer">
       <a class="center" href="index.html"
         ><i class="material-icons md-36">dashboard</i></a
       >

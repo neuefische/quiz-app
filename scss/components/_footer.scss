@@ -1,0 +1,10 @@
+.footer {
+  display: grid;
+  grid-auto-flow: column;
+  background: #023e8a;
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
